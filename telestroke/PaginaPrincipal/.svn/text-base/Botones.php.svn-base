@@ -1,0 +1,60 @@
+<div align="center">
+    <?php
+    if (strcmp($_SESSION['user_group_id'],"1") == 0 || strcmp($_SESSION['user_group_id'],"3") == 0) {
+        echo '<form name="form_evaluaciones_abet" action="cartelera.php" method="post">
+        <input name="boton_evaluaciones_abet" type="submit" value="Evaluaciones ABET" id="boton_evaluaciones_abet" style="width:400px;"/>
+    </form>
+    <br />';
+    }
+    if (strcmp($_SESSION['user_group_id'],"1") == 0 || strcmp($_SESSION['user_group_id'],"3") == 0) {
+        echo '<form name="form_cierre_cursos" action="cierrecursos.php" method="post">
+        <input name="boton_cierre_cursos" type="submit" value="Cierre de cursos" id="boton_cierre_cursos" style="width:400px;"/>
+        </form>
+    <br />';
+    }
+    if (strcmp($_SESSION['user_group_id'], "6") != 0) {
+        echo '<form id="form_admin_proyectoGrado"
+                              name="form_admin_proyectoGrado" action="./PaginasEvaluacionTesis/paginaEvaluacion.php" method="POST">
+                                    <input name="boton_admin_proyGrado"
+                                           type="submit"
+                                           value="Proyecto de grado"
+                                           id="boton_proyGrado"
+                                           style="width:400px;" />
+                              </form>
+    <br />';
+    }
+    if (strcmp($_SESSION['user_group_id'], "1") == 0) {
+        echo '<form id="form_informes"
+                              name="form_informes" action="./Informes/paginaInformes.php" method="POST">
+                                    <input name="boton_informes"
+                                           type="submit"
+                                           value="Informes"
+                                           id="boton_Informes"
+                                           style="width:400px;" />
+                              </form>
+    <br />';
+    }
+    if (strcmp($_SESSION['user_group_id'], "1") == 0 || strcmp($_SESSION['user_group_id'], "2") == 0) {
+        echo '<form id="form_admin"
+                              name="form_admin" action="./AdminPagina/Administracion.php" method="POST">
+                                    <input name="boton_admin"
+                                           type="submit"
+                                           value="Administración"
+                                           id="boton_Informes"
+                                           style="width:400px;" />
+                              </form>
+    <br />';
+    }
+    if (strcmp($_SESSION['user_group_id'], "1") == 0 || strcmp($_SESSION['user_group_id'], "6") == 0) {
+        echo '<form id="form_visitante"
+                              name="form_visitante" action="./Visitantes/visitantes.php" method="POST">
+                                    <input name="boton_visitante"
+                                           type="submit"
+                                           value="ABET PEV"
+                                           id="boton_Visitante"
+                                           style="width:400px;" />
+                              </form>
+    <br />';
+    }
+    ?>
+</div>

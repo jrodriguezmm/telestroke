@@ -1,0 +1,24 @@
+<!--  CONTENIDO -->
+<table width="800" align="center" border="1" cellpadding="2" cellspacing="2">
+    <tr>
+        <td width="75px" height="25" class="Estilo9" scope="col"><div align="left">Usuario:</div></td>
+        <td width="350px" scope="col"><div align="left" class="Estilo11"><?php echo $_SESSION['Nombres']; ?></div></td>
+        <td width="75px" height="25" class="Estilo9" scope="col"><div align="left">Código:</div></td>
+        <td width="300px" scope="col"><div align="left" class="Estilo11"><?php echo $_SESSION['carnet']; ?></div></td>
+    </tr>
+    <tr>
+        <td width="75" scope="col"><div align="left" class="Estilo9">E-Mail: </div></td>
+        <td width="350" height="25" scope="col"><div align="left" class="Estilo11"><?php echo $_SESSION['email']; ?></div></td>
+        <td width="75px" height="25" class="Estilo9" scope="col"><div align="left">Grupo:</div></td>
+        <td width="300px" scope="col"><div align="left" class="Estilo11"><?php echo $_SESSION['user_group']; ?></div></td>
+    </tr>
+</table>
+<div align="right" style="padding-top:5px">
+    <form name="form_logout" action="logout.php" method="post">
+        <input name="boton_logout" type="submit" value=<?php if(strcmp($_SESSION['user_group_id'], "6")!=0){ echo "Cerrar sesión";} else {echo "Logout";}?>>
+    </form>
+</div>
+<br />
+<p class="Estilo10" align="center"><?php if(strcmp($_SESSION['user_group_id'], "6")!=0){ echo "Menú Principal";} else {echo "Main Menu";}?></p>
+<br />
+<!-- Aqui bienen los botones! -->

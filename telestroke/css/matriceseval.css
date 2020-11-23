@@ -1,0 +1,155 @@
+#matrizEval{
+    position: relative;
+	font-size: 30pt;
+}
+.grupoEval{
+	font-size:30pt;
+    border-top: double;
+    border-bottom: double;
+    border-color: grey;
+    margin-bottom: 0px;
+    padding: 2px;
+}
+.grupoEval table th
+{
+	font-size:30pt;
+	font-family:Arial, Helvetica, sans-serif;  
+    text-align: center;
+    border-color: #600;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    margin: 0;
+    padding: 2px;
+    background-color: aliceblue;
+}
+.grupoEval table td{
+    text-align: center;
+    border-color: #600;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    margin: 0;
+    padding: 2px;
+}
+.grupoEval textarea
+{
+	font-family:Arial, Helvetica, sans-serif;  
+	text-align: left;
+    width: 95%;
+    border-width:0;
+    overflow: auto;
+    font-size:35pt;
+    font-weight:normal;     
+}
+
+.nombreGrupo
+{
+	font: Arial, sans-serif;
+    text-align: center;
+    margin:0px auto;
+    font-size:40pt;
+    font-weight:bold; 
+}
+
+.opcionEval{
+    clear: both;
+}
+.opcionEval table{
+    border-color: #600;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.opcionEval table td{
+    text-align: center;
+    border-color: #600;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    margin: 0;
+    padding: 2px;
+}
+
+.opcionEval table th
+{
+	font-family:Arial;  
+    text-align: center;
+    border-color: #600;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    margin: 0;
+    padding: 2px;
+    background-color: aliceblue;
+}
+
+.opcionEval textarea
+{
+    font-size: 35pt;
+	font-family:Arial, Helvetica, sans-serif;  
+    width: 95%;
+    border-width:0;
+    overflow: auto;
+    font-weight: normal;
+
+}
+
+.grupoEvalText
+{
+    font-size:35pt;
+	font-family:Arial, Helvetica, sans-serif;  
+	background-color: aliceblue;
+    text-align: left;
+    margin:0px auto;
+    font: Arial;
+    font-weight:normal; 
+    color:Blue;
+}
+
+.contenidoEvalText
+{
+	font-family:Arial;  
+	font-weight:normal;
+    font-size: 30pt;
+    color:Blue;
+    padding: 0px;
+}
+
+table th{
+    text-align: center;
+}
+
+td.seleccionHover{
+    background-color: grey;
+}
+td.seleccionClic{
+    background-color: #C00;
+}
+#cuadrosPopup
+{
+    font-family: 	Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-image: url(../img/trans-bg.png);
+    background-repeat: repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.nuevosDatos{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:350px;
+    height:350px;
+    margin-top: -175px; /*set to a negative number 1/2 of your height*/
+    margin-left: -175px; /*set to a negative number 1/2 of your width*/
+    border: 2px solid #2982C6;
+    background-color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 10000;
+}
+
+

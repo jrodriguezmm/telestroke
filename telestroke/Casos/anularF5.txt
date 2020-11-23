@@ -1,0 +1,24 @@
+<script>
+
+	function anularF5(){		
+		var tecla=window.event.keyCode;
+		if (tecla==116) {		
+			var respuesta = confirm("F5. ¿Desea recargar la página?"); 
+		    if (respuesta) {		
+		        location.reload();
+		    } else {
+		        event.keyCode=0;
+				event.returnValue=false;
+		    }
+		}
+	}
+	
+	if (window.addEventListener) {           
+		//window.alert("addEventListener");   
+	    window.addEventListener("keydown", anularF5);
+	} else if (window.attachEvent) {  
+		//window.alert("attachEventListener");               
+	   	window.attachEventListener("onKeyDown", anularF5);
+	}
+	
+</script>

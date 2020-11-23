@@ -1,0 +1,17 @@
+<div id="contenido" align="justify">
+    <?php
+    //Logout
+    session_unregister('user');
+    session_unregister('user_group');
+    session_unregister('user_group_id');
+    session_unregister('Nombres');
+    session_unregister('carnet');
+    session_unregister('email');
+    session_unregister('periodo');
+    $_SESSION['authenticated'] = false;
+    session_destroy();
+    session_unset();
+    ?>
+    <h3>Por favor ingrese con su usuario y su contraseña</h3>
+    <a href="./index.php">Vuelva a intentarlo</a>
+</div>

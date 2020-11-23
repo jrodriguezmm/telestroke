@@ -1,0 +1,240 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+.Estilo1 {
+    font-size: 12px;
+    font-family: 	Arial, Helvetica, sans-serif;
+    color: navy;
+    font-weight: bold;
+    padding: 0;
+    line-height: normal;
+    font-style: normal;
+    margin: 0px;
+}
+.celdas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: bold;
+    color: navy;
+    border-bottom: 1;
+    border-bottom-color: navy;
+    border-bottom-style: solid;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin: 0;
+    border-bottom-width: 1px;
+}
+
+.nombreMeta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    color: navy;
+}
+.fechas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: normal;
+    color: #333333;
+}
+.Estilo1 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+    font-weight: bold;
+}
+.Estilo2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    color: #333333; }
+.Borde_externo {
+    width: 2px;
+}
+
+
+#contenido {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+    font-weight: bold;
+}
+
+
+.Estilo10 {
+    font-size: 14px;
+    font-family: 	Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: bold;
+    line-height: normal;
+    font-style: normal;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.Estilo11 {
+    font-size: 12px;
+    font-family: 	Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: normal;
+    line-height: normal;
+    font-style: normal;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.Estilo12 {
+    font-size: 12px;
+    font-family: 	Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: normal;
+    line-height: normal;
+    font-style: normal;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+
+#botones_seleccion {
+    width: 400px
+}
+
+.recuadro {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#ed_upload_process_preguntas {
+    z-index:100;
+    visibility:hidden;
+    position:absolute;
+    text-align:center;
+    width:400px;
+}
+
+#ed_upload_form_preguntas {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #666666;
+}
+
+#fomularioEdicionPuntoEval {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:1px;
+    border-color:#333;
+    border-style:solid;
+    visibility:collapse;
+    display:none;
+}
+
+
+#new_upload_process_preguntas {
+    z-index:100;
+    visibility:hidden;
+    position:absolute;
+    text-align:center;
+    width:400px;
+}
+
+#new_upload_form_preguntas {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #666666;
+}
+
+#fomularioCrearPuntoEval {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:1px;
+    border-color:#333;
+    border-style:solid;
+    visibility:collapse;
+    display:none;
+}
+
+.recuadro_notas {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: auto;
+    -ms-overflow-y: hidden;
+    overflow-x: none;
+    overflow-y: auto;
+    width: 800px;
+}
+
+#iframe
+{
+    overflow:auto;
+    width:740px;
+    height:120px;
+    border:#000 1px solid;
+}
+.style8
+{
+    font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+}
+.filaTablas
+{
+    font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+}
+.fondo-texto {
+    font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold;
+}
+th.style8{
+    background-color: grey;
+}
+.filaHover{
+    background-color: lightgrey;
+}
+.filaSelec{
+    background-color: lightgreen;
+}
+textarea.MetasGenerales {
+    font-size: 9px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 150px;
+}
+textarea.MetasEspecificas {
+    font-size: 9px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    height: 60px;
+    width: 140px;
+}
+textarea.OrdenMeta {
+    font-size: 9px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    height: 20px;
+    width: 40px;
+}
+
+.overScroll{
+    height:450px;
+    width:800px;
+    overflow:scroll;
+    border: 10px; 
+    border-width: 1px; 
+    border-style: outset; 
+    border-color: black;
+}

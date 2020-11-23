@@ -1,0 +1,9 @@
+sudo docker run -p 8090:80 --name melab \
+-e ROOTSERVER=/var/www/html \
+-e SERVERURL=157.253.65.240:8090 \
+-e SERVERPROTOCOLO=http:// \
+-e DBHOST=157.253.65.193 \
+-e DBNAME=dbmelab2 \
+-e DBUSER=usreservasliee \
+-e DBPASS=Jesus5044 \
+docker.pkg.github.com/uniandesdsit/docker-sw--melab/melab:1.0.1
